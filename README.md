@@ -1,34 +1,31 @@
 # MNIST DATA Calissification using Convolution Newral Network 
 ![Cover photo](https://github.com/MohamedElgohary23/Convolution-neural-network-Classify-MNIST-data-/assets/141565314/8ce4359a-abda-458d-af54-ac63946ae7cd)
 
-## Classify the image from 0 to 9
+## Convolutional Neural Networks (CNN)
 
-A deep learning model is a network of weights whose values are optimized using a loss function during the training progress.
-The weights of the network are typically initialized randomly before the start of the training process.
-# In transfer learning:
-we use a pre-trained model that has been trained on a related task(ResNet). This gives us a set of initial weights that are likely to perform better than the randomly initialized weights.
-We optimize the pre-trained weights further for our specific task.
+In deep learning, a convolutional neural network (CNN/ConvNet) is a class of deep neural networks, most commonly applied to analyze visual imagery.
+Now when we think of a neural network we think about matrix multiplications but that is not the case with ConvNet.
+It uses a special technique called Convolution.
+Now in mathematics convolution is a mathematical operation on two functions that produces a third function that expresses how the shape of one is modified by the other.
 
 
 ## :star: Dataset Description
-Data set is splitted into Training part and testing part, each part contain two labels (Ants, Bees)
-I apply data Augmantation techniques and normaliztion techniques before Training and testing 
+The MNIST (Modified National Institute of Standards and Technology) dataset is the “Hello World!” of deep learning datasets and contains 70,000 grayscale images of handwritten digits under 10 categories (0 to 9).
 
 ## :star: Libraries 
 - pytorch
 - numpy
 - torchvision
 - datasets
-- models
 - transforms
 
 
 ## :star: Steps
 - Exploring Data
-- Data Augmantation
-- Data Normalization
+- Creat the DataLoader
+- Building The CNN Network
 - Training :(Applying Forward propagation and Back propgation)
 - Testing : :(Applying Forward propagation)
-- Predections
-- Visualize the prediction
+- Visualize the accurcy and the loss for training and testing
+
 
